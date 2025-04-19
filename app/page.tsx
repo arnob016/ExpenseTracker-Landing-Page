@@ -9,7 +9,7 @@ export default function Home() {
       <header className="sticky top-0 z-40 w-full border-b bg-background">
         <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
           <div className="flex gap-2 items-center text-xl font-bold">
-            <BarChart className="h-6 w-6 text-emerald-600" />
+            <img src="/logo.jpg" alt="Logo" className="h-8 w-8 rounded-sm" />
             <span>Easy Expense Tracker</span>
           </div>
           <div className="flex flex-1 items-center justify-end space-x-4">
@@ -42,7 +42,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row" id="download">
-                  <Link href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://play.google.com/storehttps://play.google.com/apps/test/com.honeysea.expense/2" target="_blank" rel="noopener noreferrer">
                     <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700">
                       <Download className="mr-2 h-4 w-4" /> Download on Play Store
                     </Button>
@@ -54,47 +54,9 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              <div className="flex items-center justify-center">
-                <div className="relative h-[500px] w-[250px] overflow-hidden rounded-[40px] border-8 border-gray-800 bg-gray-800 shadow-xl">
-                  <div className="absolute inset-0 bg-emerald-100">
-                    <div className="p-4 flex flex-col h-full">
-                      <div className="bg-emerald-600 text-white p-4 rounded-lg mb-4 flex justify-between items-center">
-                        <h3 className="font-bold">Easy Expense Tracker</h3>
-                        <BarChart className="h-5 w-5" />
-                      </div>
-                      <div className="bg-white rounded-lg p-3 mb-3 shadow-sm">
-                        <div className="text-xs text-gray-500">Income</div>
-                        <div className="text-lg font-bold text-emerald-600">$2,450.00</div>
-                      </div>
-                      <div className="bg-white rounded-lg p-3 mb-3 shadow-sm">
-                        <div className="text-xs text-gray-500">Expenses</div>
-                        <div className="text-lg font-bold text-red-500">$1,280.50</div>
-                      </div>
-                      <div className="bg-white rounded-lg p-3 mb-3 shadow-sm">
-                        <div className="text-xs text-gray-500">Balance</div>
-                        <div className="text-lg font-bold">$1,169.50</div>
-                      </div>
-                      <div className="mt-auto bg-white rounded-lg p-3 flex-1">
-                        <div className="text-xs font-medium mb-2">Recent Transactions</div>
-                        <div className="space-y-2">
-                          <div className="flex justify-between text-sm">
-                            <span>Groceries</span>
-                            <span className="text-red-500">-$85.20</span>
-                          </div>
-                          <div className="flex justify-between text-sm">
-                            <span>Salary</span>
-                            <span className="text-emerald-600">+$2,450.00</span>
-                          </div>
-                          <div className="flex justify-between text-sm">
-                            <span>Utilities</span>
-                            <span className="text-red-500">-$120.50</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className=" lg:flex justify-center items-center">
+                <img src="/abs.jpg" alt="Phone" className="w-full max-w-[400px] rounded-lg shadow-lg" />
                 </div>
-              </div>
             </div>
           </div>
         </section>

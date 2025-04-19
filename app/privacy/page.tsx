@@ -40,8 +40,8 @@ export default function PrivacyPolicy() {
           <div className="space-y-6">
             <h1 className="text-3xl font-bold">Privacy Policy</h1>
             <div className="text-sm text-gray-500">
-              <p>Effective Date: [Insert Date]</p>
-              <p>Last Updated: [Insert Date]</p>
+              <p>Effective Date: 20 April, 2025</p>
+              <p>Last Updated: 20 April, 2025</p>
             </div>
 
             <p>
@@ -103,7 +103,7 @@ export default function PrivacyPolicy() {
               <section className="space-y-2">
                 <h2 className="text-xl font-bold">7. Contact Us</h2>
                 <p>If you have any questions or concerns about your data, please contact us at:</p>
-                <p>[Your contact information]</p>
+                <p>arnob.social@gmail.com</p>
               </section>
             </div>
           </div>
@@ -112,7 +112,7 @@ export default function PrivacyPolicy() {
       <footer className="w-full border-t bg-gray-50 py-6">
         <div className="container flex flex-col items-center justify-center gap-4 text-center md:flex-row md:gap-8 md:text-left">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Easy Expense Tracker. All rights reserved.
+            © {new Date().getFullYear()} HoneySea. All rights reserved.
           </p>
           <nav className="flex gap-4 text-sm text-gray-500">
             <Link href="/privacy" className="underline underline-offset-4 hover:text-gray-900">
