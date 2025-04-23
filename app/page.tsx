@@ -42,7 +42,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row" id="download">
-                  <Link href="https://play.google.com/storehttps://play.google.com/apps/test/com.honeysea.expense/2" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://play.google.com/apps/test/com.honeysea.expense/2" target="_blank" rel="noopener noreferrer">
                     <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700">
                       <Download className="mr-2 h-4 w-4" /> Download on Play Store
                     </Button>
